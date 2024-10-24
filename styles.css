@@ -60,13 +60,17 @@ html {
     
     nav .mainMenu .closeMenu {
         display: block;
-        top: -60%;
-        font-size: 25px;
+        position: absolute;
+        top: 0;
+        right: 20px;
+        font-size: 4px;
         margin-top: 1rem;
-        cursor: pointer; 
-        margin-right: 18rem;                    
+        cursor: pointer;      
     }
-
+    
+    .closeMenu img {
+        width: 10%;
+    }
 
     
     .Ncontainer {
