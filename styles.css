@@ -21,7 +21,8 @@ html {
         justify-content: center;
         align-items: center;
         background-color: red;
-        transition: top 1s ease;
+        transition: top 1.5s ease;
+        animation: slideInFromTop 1.5s ease forwards;
         gap: 28px;
         display: none;
     }
